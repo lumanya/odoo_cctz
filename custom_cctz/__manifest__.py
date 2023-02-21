@@ -14,8 +14,6 @@
         'contacts',
         'mail',
         'purchase'
-       
-        
     ],
     'data': [
     'security/ir.model.access.csv',
@@ -29,8 +27,9 @@
     'views/market_category.xml',
     'views/customer_type.xml',
     'views/inherit_res_partner.xml'
-    
     ],
+    'images': ['static/description/banner.png'],
+    'installable': True,
     'application': True,
-   
-    }
+    'autoinstall': False,
+}
